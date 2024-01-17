@@ -1,0 +1,17 @@
+/* import tailwind utility */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+#root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
